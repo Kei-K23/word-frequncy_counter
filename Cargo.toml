@@ -1,0 +1,9 @@
+[package]
+name = "word_frequency_counter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+hashbrown = "0.14.5"
+regex = "1.10.6"
